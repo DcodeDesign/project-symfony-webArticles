@@ -3,10 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
+        <link href="{{ asset("assets/css/icofont.min.css") }}" rel="stylesheet" />
+        <link href="{{ asset("assets/css/Darkly-bootstrap.min.css") }}" rel="stylesheet" />
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
+        {% include('parts/navigation.html.twig') %}
+
         {% block body %}{% endblock %}
+
+        <script src="{{ asset("assets/js/jquery-3.3.0.min.js") }}" ></script>
+        <script src="{{ asset("assets/js/bootstrap.bundle.min.js") }}" ></script>
         {% block javascripts %}{% endblock %}
     </body>
 </html>
