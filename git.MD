@@ -1,6 +1,11 @@
+#### Initialisation d'un projet GIT
+```
+git init
+```
+
 #### liste des parametres Git 
 ```
-git config -- list
+git config --list
 ```
 
 #### Modification des parametres Git
