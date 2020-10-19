@@ -71,7 +71,13 @@ git remote add origin https://gitlab.com/gravythomas/web_articles-symfony.git
 git push -u origin master
 ```
 
-##### exemple de GitLab :
+#### Récuperer un projet d'un repo distant
+```
+git clone https://gitlab.com/gravythomas/web_articles-symfony.git
+composer install
+```
+
+#### exemple de GitLab :
 Create a new repository
 ```
 git clone https://gitlab.com/gravythomas/web_articles-symfony.git
@@ -98,5 +104,5 @@ git remote rename origin old-origin
 git remote add origin https://gitlab.com/gravythomas/web_articles-symfony.git
 git push -u origin --all
 git push -u origin --tags
-
 ```
+
